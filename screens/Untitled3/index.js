@@ -1,4 +1,3 @@
-import { ImageBackground } from "react-native";
 import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
 const Untitled3 = () => {
@@ -8,17 +7,13 @@ const Untitled3 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><ImageBackground style={styles.OmUbWfQj} source={require("./IMG_2347.PNG")} resizeMode="cover"></ImageBackground></ScrollView>
+    }}></ScrollView>
     </SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
   safeArea: {
     height: '100%'
-  },
-  OmUbWfQj: {
-    width: 249,
-    height: 289
   }
 });
 export default Untitled3;
