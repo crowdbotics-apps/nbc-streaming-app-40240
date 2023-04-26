@@ -34,9 +34,9 @@ urlpatterns = [
     path("rest-auth/registration/", include("rest_auth.registration.urls")),
 ]
 
-admin.site.site_header = "NBC Universal Studios App"
-admin.site.site_title = "NBC Universal Studios App Admin Portal"
-admin.site.index_title = "NBC Universal Studios App Admin"
+admin.site.site_header = "NBC Streaming App"
+admin.site.site_title = "NBC Streaming App Admin Portal"
+admin.site.index_title = "NBC Streaming App Admin"
 
 # swagger
 urlpatterns += [
