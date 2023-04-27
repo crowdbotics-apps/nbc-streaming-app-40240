@@ -1,6 +1,9 @@
 import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
-const Untitled3 = () => {
+const Untitled3 = ({
+  route
+}) => {
+  const {} = route.params || {};
   return <SafeAreaView style={styles.safeArea}>
         <ScrollView contentContainerStyle={{
       backgroundColor: '#f0f0f1',
